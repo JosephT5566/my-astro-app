@@ -16,7 +16,7 @@ package-lock.json
 .pnpm-store
 
 # ignore top-level vscode settings
-/.vscode/settings.json
+# /.vscode/settings.json
 
 # do not commit .env files or any files that end with `.env`
 *.env
