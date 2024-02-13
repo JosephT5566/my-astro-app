@@ -24,6 +24,7 @@
   "devDependencies": {
     "@notionhq/client": "^2.2.14",
     "@typescript-eslint/parser": "^6.16.0",
+    "date-fns": "^3.3.1",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
