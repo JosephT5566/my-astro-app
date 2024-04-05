@@ -1,7 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import PageContainer from '../components/PageContainer.astro';
+import Calendar, { mockClassDates } from '../components/Calendar';
 ---
 
 <Layout title="order">
-	<h1>Hello order</h1>
+	<PageContainer>
+		<h1>Hello order</h1>
+		<Calendar classDates={mockClassDates} />
+	</PageContainer>
 </Layout>
